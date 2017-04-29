@@ -23,7 +23,7 @@ git log --graph
 Si podría, porque el branch de title contenía todo el trabajo común de master.
 
 *- ¿Qué comando o comandos utilizaste en el paso 27?*
-git reset HEAD@{1}
+git reset HEAD~1
 
 *- ¿Qué comando o comandos utilizaste en el paso 28?*
 git stash
@@ -33,7 +33,7 @@ git branch -D title
 
 *- ¿Qué comando o comandos utilizaste en el paso 30?*
 git reflog
-git reset HEAD@{2}
+git reset HEAD~2
 git checkout -b title
 git add git-nuestro.md
 git commit -m "Titulo de nuevo"
